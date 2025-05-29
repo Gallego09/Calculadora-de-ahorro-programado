@@ -1,0 +1,30 @@
+# Configuración secreta
+SecretConfig
+
+# Archivos generados automáticamente
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
