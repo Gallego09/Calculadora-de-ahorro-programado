@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS calculadora;
+DROP TABLE IF EXISTS calculadora_ahorro;

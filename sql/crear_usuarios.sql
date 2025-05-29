@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS usuarios (
-    nombre TEXT NOT NULL,
-    apellido TEXT NOT NULL,
+    nombre VARCHAR(100) NOT NULL,
+    apellido VARCHAR(100) NOT NULL,
     documento_identidad BIGINT PRIMARY KEY,
-    correo TEXT NOT NULL,
-    telefono BIGINT NOT NULL
+    correo VARCHAR(100) NOT NULL,
+    telefono VARCHAR(20) NOT NULL
 );
